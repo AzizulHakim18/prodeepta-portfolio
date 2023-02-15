@@ -1,0 +1,23 @@
+.left-border {
+    top: 0;
+    left: 9%;
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    border: 20px solid;
+    /* border-image: linear-gradient(60deg, #f37055, #ef4e7b, #a166ab, #5073b8, #07b39b, #6fba82)1 0 0 1; */
+    border-image: linear-gradient(60deg, rgb(158, 71, 158), rgb(54, 176, 82))1 0 0 1;
+    transition: all .4s ease;
+}
+
+.right-border {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    width: 350px;
+    height: 250px;
+    border: 20px solid;
+    /* border-image: linear-gradient(60deg, #f37055, #ef4e7b, #a166ab, #5073b8, #07b39b, #6fba82)1 0 0 1; */
+    border-image: linear-gradient(60deg, rgb(54, 176, 82), rgb(158, 71, 158))0 1 1 0;
+    transition: all .4s ease;
+}
